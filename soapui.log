@@ -1,0 +1,1726 @@
+2020-06-08 11:05:19,517 WARN  [SoapUI] Missing folder [C:\Users\SreeVijeethJayanVala\Desktop\Latest Project\my-app1\ext] for external libraries
+2020-06-08 11:05:19,765 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SreeVijeethJayanVala\soapui-settings.xml]
+2020-06-08 11:05:34,145 INFO  [PluginManager] Adding plugin from [C:\Users\SreeVijeethJayanVala\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2020-06-08 11:05:34,145 INFO  [PluginManager] Adding plugin from [C:\Users\SreeVijeethJayanVala\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2020-06-08 11:05:35,243 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-06-08 11:05:35,298 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:35,415 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-06-08 11:05:35,419 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:35,546 INFO  [PluginManager] Adding plugin from [C:\Users\SreeVijeethJayanVala\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2020-06-08 11:05:35,591 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-06-08 11:05:35,592 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:35,712 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-06-08 11:05:35,713 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:35,855 INFO  [PluginManager] Adding plugin from [C:\Users\SreeVijeethJayanVala\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2020-06-08 11:05:36,774 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-06-08 11:05:36,775 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:36,881 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-06-08 11:05:36,891 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:36,895 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-06-08 11:05:36,898 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:37,061 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-06-08 11:05:37,061 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:37,142 INFO  [PluginManager] Adding plugin from [C:\Users\SreeVijeethJayanVala\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2020-06-08 11:05:37,764 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-06-08 11:05:37,766 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:37,841 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-06-08 11:05:37,842 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-06-08 11:05:37,936 INFO  [PluginManager] 5 plugins loaded in 3793 ms
+2020-06-08 11:05:37,936 INFO  [DefaultSoapUICore] All plugins loaded
+2020-06-08 11:05:39,178 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SreeVijeethJayanVala/Desktop/Latest%20Project/my-app1/Maven-Project-soapui-project.xml]
+2020-06-08 11:05:39,186 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Maven Project]
+2020-06-08 11:05:39,189 INFO  [SoapUITestCaseRunner] Running Project [Maven Project], runType = SEQUENTIAL
+2020-06-08 11:05:39,205 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:05:39,227 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:05:39,270 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:05:40,874 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2020-06-08 11:05:40,893 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2020-06-08 11:05:40,901 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2020-06-08 11:05:40,903 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2020-06-08 11:05:40,905 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2020-06-08 11:05:40,910 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2020-06-08 11:05:40,913 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2020-06-08 11:05:40,916 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2020-06-08 11:05:40,921 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2020-06-08 11:05:40,925 INFO  [SchemaUtils] Added default schema from file:/C:/Users/SreeVijeethJayanVala/.m2/repository/com/smartbear/soapui/soapui/5.5.0/soapui-5.5.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2020-06-08 11:05:40,931 INFO  [SchemaUtils] Loading schema types from [file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerCustomerRepositoryV1.xml]
+2020-06-08 11:05:40,933 INFO  [SchemaUtils] Getting schema file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerCustomerRepositoryV1.xml
+2020-06-08 11:05:41,119 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:41,119 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:41,120 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:41,120 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:05:46,113 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:46,114 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:46,115 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:46,118 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:05:47,117 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:47,117 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:47,118 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:47,118 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:05:47,916 INFO  [SchemaUtils] Loading schema types from [file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerAddressRepositoryV1.xml]
+2020-06-08 11:05:47,916 INFO  [SchemaUtils] Getting schema file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/customerAddressRepositoryV1.xml
+2020-06-08 11:05:47,982 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:47,982 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:47,983 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:47,983 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:05:47,992 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:05:48,718 INFO  [SchemaUtils] Loading schema types from [file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductTypeListV1.xml]
+2020-06-08 11:05:48,720 INFO  [SchemaUtils] Getting schema file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductTypeListV1.xml
+2020-06-08 11:05:48,781 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:48,782 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:48,782 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:48,783 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:05:50,058 INFO  [SchemaUtils] Loading schema types from [file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml]
+2020-06-08 11:05:50,060 INFO  [SchemaUtils] Getting schema file:/C:/Users/SreeVijeethJayanVala/Downloads/SOAP%20API%20WSDL%20EndPoints/SOAP%20API%20WSDL%20EndPoints/catalogProductRepositoryV1.xml
+2020-06-08 11:05:50,163 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:50,163 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:50,165 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:50,165 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:05:51,271 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:51,271 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:51,272 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:51,276 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:05:52,207 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:52,207 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:05:52,208 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:52,209 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:05:53,250 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:05:53,250 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:05:53,251 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:05:53,252 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:06:10,123 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:10,123 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:10,125 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:10,128 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:06:11,043 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:11,044 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:11,044 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:11,045 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:06:12,176 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:12,176 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:12,178 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:12,179 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:06:12,980 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:12,980 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:12,981 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:12,982 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:06:13,945 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:13,946 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:13,946 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:14,450 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:06:14,450 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:06:14,530 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 34658ms, status: FINISHED
+2020-06-08 11:06:14,537 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [System Test]
+2020-06-08 11:06:14,541 INFO  [SoapUITestCaseRunner] running step [Transfer and Expansion Script]
+2020-06-08 11:06:14,636 INFO  [log] Vijeeth
+2020-06-08 11:06:14,653 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:06:14,654 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:06:14,660 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:06:15,539 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:15,539 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:15,540 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:15,541 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:06:18,713 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:18,713 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:18,715 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:18,717 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:06:19,510 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:19,510 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:19,511 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:19,512 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:06:20,216 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:20,217 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:20,217 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:20,218 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:06:20,224 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:06:20,910 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:20,910 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:20,910 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:20,911 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:06:22,088 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:22,088 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:22,089 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:22,090 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:06:23,216 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:23,217 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:23,218 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:23,226 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:06:24,166 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:24,167 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:24,167 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:24,172 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:06:25,212 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:25,213 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:25,214 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:25,215 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:06:42,001 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:42,005 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:42,011 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:42,011 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:06:42,975 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:42,978 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:42,979 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:42,982 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:06:44,047 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:44,048 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:44,049 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:44,050 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:06:44,813 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:44,813 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:44,814 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:44,817 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:06:45,847 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:45,847 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:45,848 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:45,848 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:06:45,849 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1.run(Script1.groovy:18)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:06:46,033 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 31109ms, status: FINISHED
+2020-06-08 11:06:46,037 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [System Test], time taken: 31493ms, status: FINISHED
+2020-06-08 11:06:46,040 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Excel Test]
+2020-06-08 11:06:46,041 INFO  [SoapUITestCaseRunner] running step [Excel Driven Script]
+2020-06-08 11:06:46,440 INFO  [log] datadriven1@test.com
+2020-06-08 11:06:46,444 INFO  [log] The total number of rows  are9
+2020-06-08 11:06:46,444 INFO  [log] The total number of columns  are7
+2020-06-08 11:06:46,454 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:06:46,455 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:06:46,455 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:06:47,346 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:47,346 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:47,346 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:47,347 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:06:50,524 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:50,525 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:50,526 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:50,528 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:06:51,307 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:51,307 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:51,308 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:51,312 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:06:52,064 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:52,064 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:52,065 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:52,066 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:06:52,074 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:06:52,760 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:52,760 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:52,760 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:52,763 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:06:54,065 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:54,065 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:54,066 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:54,069 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:06:55,215 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:55,216 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:55,223 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:55,226 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:06:56,153 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:56,155 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:06:56,156 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:56,159 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:06:57,196 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:06:57,196 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:06:57,201 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:06:57,202 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:07:14,475 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:14,480 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:07:14,486 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:14,491 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:07:15,396 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:15,396 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:07:15,397 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:15,398 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:07:16,428 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:16,428 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:07:16,429 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:16,430 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:07:17,174 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:17,174 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:17,175 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:17,176 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:07:18,277 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:18,280 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:18,283 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:18,286 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:07:18,286 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:07:18,954 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 31723ms, status: FINISHED
+2020-06-08 11:07:18,967 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:07:18,970 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:07:18,971 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:07:19,846 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:19,847 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:19,847 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:19,848 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:07:23,098 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:23,099 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:23,101 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:23,101 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:07:23,993 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:23,994 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:24,001 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:24,002 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:07:24,774 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:24,775 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:24,776 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:24,778 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:07:24,789 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:07:25,500 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:25,501 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:25,502 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:25,506 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:07:26,773 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:26,774 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:26,774 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:26,775 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:07:27,881 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:27,885 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:27,888 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:27,891 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:07:28,813 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:28,815 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:28,816 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:28,819 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:07:29,831 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:29,831 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:07:29,832 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:29,834 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:07:48,031 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:48,032 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:07:48,033 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:48,043 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:07:48,949 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:48,949 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:07:48,950 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:48,950 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:07:50,047 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:50,047 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:07:50,048 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:50,049 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:07:50,851 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:50,851 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:50,852 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:50,854 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:07:51,945 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:51,945 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:51,946 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:51,949 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:07:51,949 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:07:52,151 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 32876ms, status: FINISHED
+2020-06-08 11:07:52,162 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:07:52,174 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:07:52,179 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:07:53,196 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:53,196 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:53,197 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:53,197 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:07:57,131 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:57,133 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:57,133 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:57,144 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:07:57,912 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:57,913 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:57,914 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:57,917 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:07:58,668 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:58,668 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:58,669 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:58,674 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:07:58,683 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:07:59,353 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:07:59,353 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:07:59,354 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:07:59,356 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:08:00,608 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:00,608 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:00,609 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:00,610 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:08:01,698 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:01,699 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:01,703 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:01,708 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:08:02,802 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:02,802 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:02,803 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:02,804 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:08:03,835 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:03,836 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:03,837 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:03,837 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:08:20,843 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:20,844 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:20,845 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:20,849 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:08:21,775 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:21,775 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:21,776 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:21,779 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:08:22,853 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:22,854 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:22,854 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:22,855 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:08:23,635 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:23,635 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:23,636 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:23,639 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:08:24,486 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:24,487 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:24,489 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:24,490 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:08:24,492 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:08:24,647 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 32222ms, status: FINISHED
+2020-06-08 11:08:24,654 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:08:24,656 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:08:24,660 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:08:25,592 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:25,592 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:25,593 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:25,594 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:08:28,968 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:28,969 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:28,970 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:28,973 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:08:29,731 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:29,732 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:29,734 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:29,738 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:08:30,482 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:30,483 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:30,484 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:30,485 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:08:30,492 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:08:31,135 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:31,135 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:31,136 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:31,139 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:08:32,346 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:32,350 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:32,354 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:32,355 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:08:33,449 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:33,449 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:33,451 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:33,453 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:08:34,308 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:34,309 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:34,313 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:34,317 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:08:35,303 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:35,303 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:35,303 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:35,306 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:08:50,961 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:50,962 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:50,964 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:50,968 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:08:51,920 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:51,921 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:51,923 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:51,924 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:08:53,008 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:53,009 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:08:53,010 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:53,011 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:08:53,814 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:53,814 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:53,815 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:53,818 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:08:54,631 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:54,632 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:54,632 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:54,634 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:08:54,634 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:08:54,808 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 29885ms, status: FINISHED
+2020-06-08 11:08:54,810 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:08:54,812 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:08:54,813 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:08:55,765 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:55,765 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:55,766 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:55,768 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:08:58,741 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:58,742 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:58,743 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:58,746 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:08:59,547 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:08:59,547 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:08:59,548 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:08:59,551 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:09:00,289 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:00,290 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:00,291 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:00,293 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:09:00,300 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:09:00,986 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:00,986 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:00,987 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:00,988 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:09:02,314 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:02,314 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:02,315 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:02,316 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:09:03,381 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:03,381 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:03,382 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:03,382 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:09:04,340 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:04,342 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:04,343 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:04,346 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:09:05,303 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:05,306 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:05,308 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:05,310 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:09:21,823 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:21,823 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:21,825 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:21,827 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:09:22,744 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:22,744 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:22,745 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:22,747 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:09:23,828 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:23,828 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:23,829 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:23,830 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:09:24,600 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:24,600 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:24,601 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:24,602 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:09:25,452 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:25,453 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:25,458 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:25,460 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:09:25,461 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:09:25,611 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 30570ms, status: FINISHED
+2020-06-08 11:09:25,614 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:09:25,615 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:09:25,624 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:09:26,506 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:26,506 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:26,506 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:26,507 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:09:29,517 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:29,517 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:29,519 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:29,522 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:09:30,307 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:30,307 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:30,313 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:30,317 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:09:31,455 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:31,455 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:31,456 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:31,457 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:09:31,474 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:09:32,115 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:32,118 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:32,120 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:32,123 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:09:33,261 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:33,261 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:33,262 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:33,263 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:09:34,728 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:34,739 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:34,742 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:34,743 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:09:35,623 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:35,624 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:35,624 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:35,627 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:09:36,625 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:36,625 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:36,626 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:36,628 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:09:54,455 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:54,455 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:54,457 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:54,460 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:09:55,389 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:55,389 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:55,390 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:55,390 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:09:56,438 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:56,438 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:09:56,439 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:56,440 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:09:57,193 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:57,195 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:57,198 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:57,198 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:09:58,373 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:58,373 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:58,379 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:58,380 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:09:58,380 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:09:58,551 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 32661ms, status: FINISHED
+2020-06-08 11:09:58,554 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:09:58,555 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:09:58,555 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:09:59,459 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:09:59,460 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:09:59,463 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:09:59,467 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:10:02,747 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:02,747 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:02,749 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:02,753 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:10:03,614 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:03,615 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:03,615 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:03,618 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:10:04,365 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:04,366 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:04,366 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:04,367 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:10:04,371 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:10:05,039 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:05,040 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:05,040 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:05,041 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:10:06,479 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:06,480 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:06,486 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:06,490 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:10:07,582 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:07,582 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:07,584 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:07,586 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:10:08,515 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:08,516 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:08,517 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:08,521 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:10:09,550 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:09,551 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:09,551 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:09,554 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:10:26,513 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:26,514 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:26,516 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:26,520 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:10:27,450 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:27,450 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:27,452 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:27,452 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:10:28,512 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:28,512 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:28,513 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:28,514 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:10:29,248 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:29,249 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:29,250 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:29,251 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:10:30,295 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:30,295 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:30,296 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:30,297 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:10:30,297 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:10:30,445 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 31649ms, status: FINISHED
+2020-06-08 11:10:30,447 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:10:30,447 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:10:30,448 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:10:31,345 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:31,345 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:31,346 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:31,346 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:10:34,506 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:34,511 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:34,513 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:34,547 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:10:35,268 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:35,270 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:35,276 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:35,277 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:10:36,007 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:36,008 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:36,009 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:36,012 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:10:36,018 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:10:36,695 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:36,695 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:36,695 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:36,696 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:10:37,856 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:37,857 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:37,859 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:37,862 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:10:39,027 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:39,029 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:39,031 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:39,039 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:10:39,987 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:39,989 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:10:39,990 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:39,993 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:10:41,032 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:41,032 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:41,033 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:41,033 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:10:57,439 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:57,439 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:57,440 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:57,443 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:10:58,409 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:58,409 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:58,410 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:58,413 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:10:59,455 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:10:59,455 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:10:59,456 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:10:59,456 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:11:00,204 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:00,204 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:00,205 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:00,208 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:11:01,338 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:01,339 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:01,339 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:01,343 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:11:01,344 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:11:01,690 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 30761ms, status: FINISHED
+2020-06-08 11:11:01,694 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:11:01,700 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:11:01,701 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:11:02,625 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:02,625 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:02,626 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:02,630 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:11:06,059 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:06,059 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:06,062 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:06,062 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:11:06,847 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:06,847 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:06,848 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:06,850 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:11:07,589 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:07,589 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:07,590 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:07,592 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:11:07,597 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:11:08,261 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:08,262 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:08,267 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:08,271 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:11:09,537 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:09,538 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:09,539 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:09,542 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:11:10,675 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:10,675 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:10,677 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:10,700 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:11:11,658 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:11,658 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:11,659 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:11,661 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:11:12,719 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:12,720 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:11:12,721 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:12,724 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:11:30,437 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:30,450 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:11:30,452 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:30,453 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:11:31,361 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:31,363 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:11:31,363 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:31,366 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:11:32,517 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:32,518 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:11:32,518 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:32,521 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:11:33,264 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:33,265 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:33,265 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:33,268 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:11:34,278 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:34,279 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:34,283 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:34,284 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:11:34,285 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1.run(Script1.groovy:74)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:11:34,452 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 32458ms, status: FINISHED
+2020-06-08 11:11:34,454 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Excel Test], time taken: 288411ms, status: FINISHED
+2020-06-08 11:11:34,457 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Data Base Test]
+2020-06-08 11:11:34,457 INFO  [SoapUITestCaseRunner] running step [Data Base Script]
+2020-06-08 11:11:35,054 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:11:35,055 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:11:35,056 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:11:35,945 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:35,945 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:35,946 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:35,949 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:11:39,092 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:39,092 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:39,093 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:39,096 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:11:39,874 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:39,875 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:39,875 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:39,876 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:11:40,619 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:40,620 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:40,620 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:40,624 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:11:40,632 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:11:41,298 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:41,298 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:41,299 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:41,300 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:11:42,480 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:42,480 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:42,480 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:42,484 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:11:43,729 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:43,732 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:43,732 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:43,736 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:11:44,624 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:44,624 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:11:44,625 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:44,626 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:11:45,577 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:11:45,579 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:11:45,580 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:11:45,583 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:12:01,808 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:01,808 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:01,810 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:01,814 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:12:02,806 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:02,806 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:02,807 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:02,812 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:12:03,911 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:03,912 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:03,912 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:03,913 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:12:04,794 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:04,795 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:04,799 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:04,801 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:12:05,870 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:05,870 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:05,875 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:05,875 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:12:05,876 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1$_run_closure1.doCall(Script1.groovy:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:442)
+	at groovy.sql.Sql.eachRow(Sql.java:1194)
+	at groovy.sql.Sql.eachRow(Sql.java:1151)
+	at groovy.sql.Sql.eachRow(Sql.java:1090)
+	at groovy.sql.Sql$eachRow$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1.run(Script1.groovy:19)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:12:06,143 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 30732ms, status: FINISHED
+2020-06-08 11:12:06,145 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:12:06,145 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:12:06,145 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:12:07,066 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:07,066 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:07,067 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:07,069 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:12:10,343 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:10,343 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:10,344 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:10,348 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:12:11,138 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:11,138 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:11,139 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:11,140 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:12:11,901 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:11,902 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:11,906 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:11,908 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:12:11,919 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:12:12,616 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:12,617 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:12,620 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:12,621 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:12:13,875 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:13,875 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:13,876 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:13,879 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:12:14,970 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:14,970 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:14,972 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:14,975 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:12:15,950 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:15,954 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:15,954 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:15,957 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:12:16,990 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:16,990 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:16,991 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:16,991 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:12:33,483 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:33,483 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:33,484 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:33,487 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:12:34,423 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:34,425 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:34,429 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:34,430 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:12:35,411 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:35,411 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:35,412 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:35,415 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:12:36,170 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:36,170 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:36,171 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:36,171 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:12:37,240 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:37,240 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:37,240 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:37,242 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:12:37,246 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1$_run_closure1.doCall(Script1.groovy:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:442)
+	at groovy.sql.Sql.eachRow(Sql.java:1194)
+	at groovy.sql.Sql.eachRow(Sql.java:1151)
+	at groovy.sql.Sql.eachRow(Sql.java:1090)
+	at groovy.sql.Sql$eachRow$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1.run(Script1.groovy:19)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:12:37,453 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 31014ms, status: FINISHED
+2020-06-08 11:12:37,463 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:12:37,464 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:12:37,464 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:12:38,408 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:38,410 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:38,411 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:38,415 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:12:41,523 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:41,523 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:41,532 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:41,533 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:12:42,319 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:42,319 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:42,320 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:42,323 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:12:43,093 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:43,094 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:43,095 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:43,099 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:12:43,105 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:12:43,804 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:43,804 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:43,808 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:43,809 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:12:44,952 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:44,952 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:44,953 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:44,954 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:12:46,046 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:46,047 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:46,048 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:46,051 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:12:47,066 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:47,067 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:12:47,070 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:47,074 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:12:48,024 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:12:48,026 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:12:48,027 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:12:48,029 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:13:04,475 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:04,475 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:13:04,477 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:04,479 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:13:05,398 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:05,399 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:13:05,400 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:05,400 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:13:06,505 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:06,505 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:13:06,526 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:06,542 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:13:07,310 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:07,311 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:07,311 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:07,312 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:13:08,321 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:08,321 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:08,322 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:08,323 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:13:08,326 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1$_run_closure1.doCall(Script1.groovy:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:442)
+	at groovy.sql.Sql.eachRow(Sql.java:1194)
+	at groovy.sql.Sql.eachRow(Sql.java:1151)
+	at groovy.sql.Sql.eachRow(Sql.java:1090)
+	at groovy.sql.Sql$eachRow$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1.run(Script1.groovy:19)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:13:08,646 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 30734ms, status: FINISHED
+2020-06-08 11:13:08,651 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyTransfer and Expansion]
+2020-06-08 11:13:08,653 INFO  [SoapUITestCaseRunner] running step [Data]
+2020-06-08 11:13:08,653 INFO  [SoapUITestCaseRunner] running step [Save New Customer]
+2020-06-08 11:13:09,618 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:09,619 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:09,622 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:09,626 INFO  [SoapUITestCaseRunner] running step [Get List Of Customers]
+2020-06-08 11:13:12,756 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:12,756 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:12,758 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:12,761 INFO  [SoapUITestCaseRunner] running step [Get Customer By ID]
+2020-06-08 11:13:13,554 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:13,554 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:13,554 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:13,555 INFO  [SoapUITestCaseRunner] running step [Find Customer Address By AddressID]
+2020-06-08 11:13:14,316 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:14,316 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:14,319 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:14,321 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-06-08 11:13:14,325 INFO  [SoapUITestCaseRunner] running step [Get Product Types List]
+2020-06-08 11:13:14,996 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:14,997 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:14,998 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:14,999 INFO  [SoapUITestCaseRunner] running step [Save New Product]
+2020-06-08 11:13:16,221 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:16,222 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:16,225 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:16,239 INFO  [SoapUITestCaseRunner] running step [Get All Product List]
+2020-06-08 11:13:17,937 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:17,938 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:17,939 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:17,942 INFO  [SoapUITestCaseRunner] running step [Get Product By ProductID]
+2020-06-08 11:13:18,825 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:18,826 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:18,831 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:18,834 INFO  [SoapUITestCaseRunner] running step [Save New Sales Order]
+2020-06-08 11:13:19,776 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:19,778 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:13:19,778 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:19,779 INFO  [SoapUITestCaseRunner] running step [Get All Sales Order List]
+2020-06-08 11:13:37,407 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:37,407 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:13:37,409 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:37,412 INFO  [SoapUITestCaseRunner] running step [Get Sales Order By OrderID]
+2020-06-08 11:13:38,313 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:38,313 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:13:38,315 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:38,316 INFO  [SoapUITestCaseRunner] running step [Delete Product By ProductID]
+2020-06-08 11:13:39,321 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:39,322 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status UNKNOWN
+2020-06-08 11:13:39,322 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:39,323 INFO  [SoapUITestCaseRunner] running step [Delete Customer Address by AddressID]
+2020-06-08 11:13:40,034 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:40,034 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:40,036 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:40,039 INFO  [SoapUITestCaseRunner] running step [Delete Customer By ID]
+2020-06-08 11:13:41,067 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-06-08 11:13:41,067 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2020-06-08 11:13:41,068 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2020-06-08 11:13:41,069 ERROR [SoapUI] An error occurred [Cannot get property 'testCases' on null object], see error log for details
+2020-06-08 11:13:41,069 ERROR [errorlog] java.lang.NullPointerException: Cannot get property 'testCases' on null object
+java.lang.NullPointerException: Cannot get property 'testCases' on null object
+	at org.codehaus.groovy.runtime.NullObject.getProperty(NullObject.java:60)
+	at org.codehaus.groovy.runtime.InvokerHelper.getProperty(InvokerHelper.java:172)
+	at org.codehaus.groovy.runtime.callsite.NullCallSite.getProperty(NullCallSite.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callGetProperty(AbstractCallSite.java:296)
+	at Script1.run(Script1.groovy:1)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.runTearDownScript(WsdlTestCase.java:897)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTearDownScripts(AbstractTestCaseRunner.java:186)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:171)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalFinally(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:149)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.start(AbstractTestRunner.java:76)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:594)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.run(WsdlTestCase.java:78)
+	at com.eviware.soapui.model.testsuite.TestCase$run.call(Unknown Source)
+	at Script1$_run_closure1.doCall(Script1.groovy:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1019)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovy.lang.Closure.call(Closure.java:442)
+	at groovy.sql.Sql.eachRow(Sql.java:1194)
+	at groovy.sql.Sql.eachRow(Sql.java:1151)
+	at groovy.sql.Sql.eachRow(Sql.java:1090)
+	at groovy.sql.Sql$eachRow$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at Script1.run(Script1.groovy:19)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:90)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-06-08 11:13:41,287 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyTransfer and Expansion], time taken: 32320ms, status: FINISHED
+2020-06-08 11:13:41,291 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Data Base Test], time taken: 126832ms, status: FINISHED
+2020-06-08 11:13:41,292 INFO  [SoapUITestCaseRunner] Project [Maven Project] finished with status [FINISHED] in 482098ms
+2020-06-08 11:13:45,167 WARN  [Tools] Could not delete temporary directory C:\Users\SREEVI~1\AppData\Local\Temp\858a7af5-9caa-42c3-9a54-8dd3b708e113
+2020-06-08 11:13:45,175 WARN  [Tools] Could not delete temporary directory C:\Users\SREEVI~1\AppData\Local\Temp\75056683-7065-4ebf-b454-44cb531766ec
